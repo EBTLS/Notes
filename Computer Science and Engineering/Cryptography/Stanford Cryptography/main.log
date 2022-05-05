@@ -1,0 +1,1050 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.9)  21 JAN 2022 21:29
+entering extended mode
+**"d:/OneDrive/WorkSpace/Notes/Notesbook/Computer Science and Engineering/Cryptography/Stanford Cryptography/main.tex"
+(d:/OneDrive/WorkSpace/Notes/Notesbook/Computer Science and Engineering/Cryptography/Stanford Cryptography/main.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (D:\Softwares\Work_Tools\Miktex\tex/latex/base\book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(D:\Softwares\Work_Tools\Miktex\tex/latex/base\bk11.clo
+File: bk11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@chapter=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(D:\Softwares\Work_Tools\Miktex\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+)) (D:\Softwares\Work_Tools\Miktex\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count191
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count192
+\leftroot@=\count193
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count194
+\DOTSCASE@=\count195
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count196
+\c@MaxMatrixCols=\count197
+\dotsspace@=\muskip16
+\c@parentequation=\count198
+\dspbrk@lvl=\count199
+\tag@help=\toks17
+\row@=\count266
+\column@=\count267
+\maxfields@=\count268
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (D:\Softwares\Work_Tools\Miktex\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks27
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen150
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\hyperref-langpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel languages
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count271
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count272
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen151
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count273
+\Field@Width=\dimen152
+\Fld@charsize=\dimen153
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
+)
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip55
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/jknappen\mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup9
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/babel\babel.sty
+Package: babel 2021/06/02 3.60 The Babel package
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/babel\babel.def
+File: babel.def 2021/06/02 3.60 Babel common definitions
+\babel@savecnt=\count279
+\U@D=\dimen154
+\l@unhyphenated=\language79
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count280
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\Softwares\Work_Tools\Miktex\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)) (D:\Softwares\Work_Tools\Miktex\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/ucs\utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+)) (D:\Softwares\Work_Tools\Miktex\tex/latex/ucs\ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/ucs\uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count281
+\uc@combtoks=\toks30
+\uc@combtoksb=\toks31
+\uc@temptokena=\toks32
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (D:\Softwares\Work_Tools\Miktex\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count282
+\Gm@cntv=\count283
+\c@Gm@tempcnt=\count284
+\Gm@bindingoffset=\dimen155
+\Gm@wd@mp=\dimen156
+\Gm@odd@mp=\dimen157
+\Gm@even@mp=\dimen158
+\Gm@layoutwidth=\dimen159
+\Gm@layoutheight=\dimen160
+\Gm@layouthoffset=\dimen161
+\Gm@layoutvoffset=\dimen162
+\Gm@dimlist=\toks33
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/geometry\geometry.cfg)) (D:\Softwares\Work_Tools\Miktex\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen163
+\enit@toks=\toks34
+\enit@inbox=\box52
+\enit@count@id=\count285
+\enitdp@description=\count286
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count287
+\float@exts=\toks35
+\float@box=\box53
+\@float@everytoks=\toks36
+\@floatcapt=\box54
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip57
+\subfigcapskip=\skip58
+\subfigcaptopadj=\dimen164
+\subfigbottomskip=\skip59
+\subfigcapmargin=\dimen165
+\subfiglabelskip=\skip60
+\c@subfigure=\count288
+\c@lofdepth=\count289
+\c@subtable=\count290
+\c@lotdepth=\count291
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(D:\Softwares\Work_Tools\Miktex\tex/latex/subfigure\subfigure.cfg)
+\subfig@top=\skip61
+\subfig@bottom=\skip62
+)
+\c@theorem=\count292
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count293
+\l__pdf_internal_box=\box55
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+ (D:\Softwares\Work_Tools\Miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count294
+\scratchdimen=\dimen166
+\scratchbox=\box56
+\nofMPsegments=\count295
+\nofMParguments=\count296
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count297
+\MPscratchDim=\dimen167
+\MPnumerator=\count298
+\makeMPintoPDFobject=\count299
+\everyMPtoPDFconversion=\toks38
+) (D:\Softwares\Work_Tools\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package hyperref Info: Link coloring OFF on input line 37.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (D:\Softwares\Work_Tools\Miktex\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count300
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+ (main.out) (main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/ucs\ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=512.14963pt
+* \textheight=717.00946pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=49.79231pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+(D:\Softwares\Work_Tools\Miktex\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 40.
+ (D:\Softwares\Work_Tools\Miktex\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) [1
+
+
+{C:/Users/10120/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [1] (main.toc [1
+
+] [2])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [3]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 \part{Coursera Stanford Cryptography I}
+                                             [1
+
+]
+Chapter 1.
+(Stanford_Crypto_1/Chapters/01_Introduction.tex
+<Stanford_Crypto_1/fig/01_Introduction/Vigener Cipher.png, id=506, 573.64313pt x 168.63pt>
+File: Stanford_Crypto_1/fig/01_Introduction/Vigener Cipher.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/01_Introduction/Vigener Cipher.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/01_Introduction/Vigener Cipher.png  used on input line 34.
+(pdftex.def)             Requested size: 409.72125pt x 120.44601pt.
+ [2
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.47 $$y \leftarrow A(m)$$.
+                            <./Stanford_Crypto_1/fig/01_Introduction/Vigener Cipher.png (PNG copy)>]) [3]
+Chapter 2.
+(Stanford_Crypto_1/Chapters/02_Stream_Cipher.tex
+Overfull \hbox (46.9306pt too wide) in paragraph at lines 24--27
+[]\T1/cmr/m/it/10.95 A ci-pher $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 E; D\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/it/10.95 over $\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 K; M; C\OT1/cmr/m/n/10.95 )$ \T1/cmr/m/it/10.95 has per-fect se-crecy if $\OMS/cmsy/m/n/10.95 8\OML/cmm/m/it/10.95 m[]; m[] \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 M  []$ \T1/cmr/m/it/10.95 and $\OMS/cmsy/m/n/10.95 8\OML/cmm/m/it/10.95 c \OMS/cmsy/m/n/10.95 2 \OML/cmm/m/it/10.95 C$ $[] [] \OT1/cmr/m/n/10.95 =
+ []
+
+[4
+
+]
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 73.
+
+
+Overfull \hbox (4.07358pt too wide) in paragraph at lines 110--112
+[]\T1/cmr/bx/n/10.95 Definition 2.2.4 \T1/cmr/m/n/10.95 (Un-pre-dictable PRG)\T1/cmr/bx/n/10.95 . \T1/cmr/m/it/10.95 Un-pre-dictable PRG A PRG G is un-pre-dictable if the value Predadv[A,
+ []
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 114.
+(D:\Softwares\Work_Tools\Miktex\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [5]
+<Stanford_Crypto_1/fig/02_Stream_Cipher/CSS Stream Cipher.png, id=565, 468.24937pt x 132.495pt>
+File: Stanford_Crypto_1/fig/02_Stream_Cipher/CSS Stream Cipher.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/02_Stream_Cipher/CSS Stream Cipher.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/02_Stream_Cipher/CSS Stream Cipher.png  used on input line 192.
+(pdftex.def)             Requested size: 409.72125pt x 115.9409pt.
+<Stanford_Crypto_1/fig/02_Stream_Cipher/LFSR.png, id=567, 584.1825pt x 127.22531pt>
+File: Stanford_Crypto_1/fig/02_Stream_Cipher/LFSR.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/02_Stream_Cipher/LFSR.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/02_Stream_Cipher/LFSR.png  used on input line 203.
+(pdftex.def)             Requested size: 409.72125pt x 89.23375pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.206 \end{figure}
+                   <./Stanford_Crypto_1/fig/02_Stream_Cipher/CSS Stream Cipher.png (PNG copy)>]
+<Stanford_Crypto_1/fig/02_Stream_Cipher/Salsa20.png, id=578, 540.51938pt x 177.66376pt>
+File: Stanford_Crypto_1/fig/02_Stream_Cipher/Salsa20.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/02_Stream_Cipher/Salsa20.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/02_Stream_Cipher/Salsa20.png  used on input line 235.
+(pdftex.def)             Requested size: 307.2929pt x 101.00642pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.261     F
+           or $b=0,1$, let $W_{b}$ be the event that $\mathcal{A}$ outputs 1...pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.261     F
+           or $b=0,1$, let $W_{b}$ be the event that $\mathcal{A}$ outputs 1... <./Stanford_Crypto_1/fig/02_Stream_Cipher/LFSR.png (PNG copy)> <./Stanford_Crypto_1/fig/02_Stream_Cipher/Salsa20.png (PNG copy)>]) [8]
+Chapter 3.
+(Stanford_Crypto_1/Chapters/03_Block_Cipher.tex
+<Stanford_Crypto_1/fig/03_block_cipher/Secure PRF Experiment.png, id=602, 557.08125pt x 222.8325pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Secure PRF Experiment.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Secure PRF Experiment.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Secure PRF Experiment.png  used on input line 33.
+(pdftex.def)             Requested size: 256.07481pt x 102.43279pt.
+<Stanford_Crypto_1/fig/03_block_cipher/Secure PRP Experiment.png, id=604, 549.55313pt x 219.82124pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Secure PRP Experiment.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Secure PRP Experiment.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Secure PRP Experiment.png  used on input line 52.
+(pdftex.def)             Requested size: 256.07481pt x 102.43048pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[9
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.62     $$
+            <./Stanford_Crypto_1/fig/03_block_cipher/Secure PRF Experiment.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/Tree Construction.png, id=618, 581.92406pt x 280.04625pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Tree Construction.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Tree Construction.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Tree Construction.png  used on input line 100.
+(pdftex.def)             Requested size: 256.07481pt x 123.23354pt.
+<Stanford_Crypto_1/fig/03_block_cipher/GGM PRF.png, id=620, 573.64313pt x 186.6975pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/GGM PRF.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/GGM PRF.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/GGM PRF.png  used on input line 109.
+(pdftex.def)             Requested size: 256.07481pt x 83.34363pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.112 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.112 \end{figure}
+                   <./Stanford_Crypto_1/fig/03_block_cipher/Secure PRP Experiment.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Tree Construction.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/Block Cipher.png, id=631, 510.40688pt x 129.48375pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Block Cipher.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Block Cipher.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Block Cipher.png  used on input line 125.
+(pdftex.def)             Requested size: 409.72125pt x 103.9467pt.
+<Stanford_Crypto_1/fig/03_block_cipher/Block Cipher Structure.png, id=633, 529.22719pt x 222.07968pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Block Cipher Structure.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Block Cipher Structure.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Block Cipher Structure.png  used on input line 134.
+(pdftex.def)             Requested size: 409.72125pt x 171.93036pt.
+<Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Encryption.png, id=635, 546.54187pt x 177.66376pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Encryption.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Encryption.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Encryption.png  used on input line 149.
+(pdftex.def)             Requested size: 409.72125pt x 133.18784pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \end{figure}
+                   <./Stanford_Crypto_1/fig/03_block_cipher/GGM PRF.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Block Cipher.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Block Cipher Structure.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Decryption.png, id=644, 511.9125pt x 109.1578pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Decryption.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Decryption.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Decryption.png  used on input line 159.
+(pdftex.def)             Requested size: 409.72125pt x 87.36633pt.
+<Stanford_Crypto_1/fig/03_block_cipher/DES Round Function.png, id=646, 692.5875pt x 488.57532pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/DES Round Function.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/DES Round Function.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/DES Round Function.png  used on input line 183.
+(pdftex.def)             Requested size: 409.72125pt x 289.03972pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.198 \subsubsection
+                    {Triple DES}pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.198 \subsubsection
+                    {Triple DES} <./Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Encryption.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Feistel Network Decryption.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/DES Meet in the Middle Attack.png, id=660, 560.8453pt x 279.29344pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/DES Meet in the Middle Attack.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/DES Meet in the Middle Attack.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/DES Meet in the Middle Attack.png  used on input line 219.
+(pdftex.def)             Requested size: 409.72125pt x 204.03166pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.236     \end{equation}
+                         <./Stanford_Crypto_1/fig/03_block_cipher/DES Round Function.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/AES High-level.png, id=672, 566.86781pt x 259.7203pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/AES High-level.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/AES High-level.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/AES High-level.png  used on input line 249.
+(pdftex.def)             Requested size: 409.72125pt x 187.72766pt.
+<Stanford_Crypto_1/fig/03_block_cipher/AES128 Schematic.png, id=674, 578.16pt x 265.74281pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/AES128 Schematic.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/AES128 Schematic.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/AES128 Schematic.png  used on input line 261.
+(pdftex.def)             Requested size: 409.72125pt x 188.32187pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271     \item M
+                 ixColumns: shown in Fiugre \ref{fig: 03 AES Auxialiary Func...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.271     \item M
+                 ixColumns: shown in Fiugre \ref{fig: 03 AES Auxialiary Func... <./Stanford_Crypto_1/fig/03_block_cipher/DES Meet in the Middle Attack.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/AES High-level.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/AES Shift Rows.png, id=687, 248.42813pt x 104.64093pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/AES Shift Rows.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/AES Shift Rows.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/AES Shift Rows.png  used on input line 277.
+(pdftex.def)             Requested size: 256.07481pt x 107.87076pt.
+<Stanford_Crypto_1/fig/03_block_cipher/AES Mix Columns.png, id=688, 242.40562pt x 112.92188pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/AES Mix Columns.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/AES Mix Columns.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/AES Mix Columns.png  used on input line 280.
+(pdftex.def)             Requested size: 256.07481pt x 119.30374pt.
+
+Overfull \hbox (16.94377pt too wide) in paragraph at lines 277--281
+[][] [][]
+ []
+
+<Stanford_Crypto_1/fig/03_block_cipher/Attack of Sem Secure for Many-Time Key.png, id=690, 582.67688pt x 176.91093pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Attack of Sem Secure for Many-Time Key.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Attack of Sem Secure for Many-Time Key.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Attack of Sem Secure for Many-Time Key.png  used on input line 308.
+(pdftex.def)             Requested size: 409.72125pt x 124.40099pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.321 \end{definition}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.321 \end{definition}
+                       <./Stanford_Crypto_1/fig/03_block_cipher/AES128 Schematic.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/AES Shift Rows.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/AES Mix Columns.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/Ciphers Insecure under CPA.png, id=704, 526.21594pt x 137.7647pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Ciphers Insecure under CPA.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Ciphers Insecure under CPA.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Ciphers Insecure under CPA.png  used on input line 331.
+(pdftex.def)             Requested size: 409.72125pt x 107.27103pt.
+<Stanford_Crypto_1/fig/03_block_cipher/Randomized Encrpytion.png, id=706, 402.75468pt x 112.16907pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Randomized Encrpytion.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Randomized Encrpytion.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Randomized Encrpytion.png  used on input line 344.
+(pdftex.def)             Requested size: 409.72125pt x 114.10968pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.3.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.359 \end{definition}
+                      pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.359 \end{definition}
+                       <./Stanford_Crypto_1/fig/03_block_cipher/Attack of Sem Secure for Many-Time Key.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Ciphers Insecure under CPA.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/nonce-based encrpytion.png, id=719, 559.33969pt x 118.19156pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/nonce-based encrpytion.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/nonce-based encrpytion.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/nonce-based encrpytion.png  used on input line 366.
+(pdftex.def)             Requested size: 409.72125pt x 86.58029pt.
+<Stanford_Crypto_1/fig/03_block_cipher/Attack for nonce-based encryption.png, id=721, 563.85657pt x 159.59625pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/Attack for nonce-based encryption.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/Attack for nonce-based encryption.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/Attack for nonce-based encryption.png  used on input line 381.
+(pdftex.def)             Requested size: 409.72125pt x 115.97096pt.
+<Stanford_Crypto_1/fig/03_block_cipher/ECB Mode.png, id=723, 511.9125pt x 155.83218pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/ECB Mode.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/ECB Mode.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/ECB Mode.png  used on input line 413.
+(pdftex.def)             Requested size: 409.72125pt x 124.72298pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.3.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.416 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.416 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.3.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.416 \end{figure}
+                   <./Stanford_Crypto_1/fig/03_block_cipher/Randomized Encrpytion.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/nonce-based encrpytion.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/Attack for nonce-based encryption.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Encry.png, id=733, 544.28343pt x 198.7425pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Encry.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Encry.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Encry.png  used on input line 434.
+(pdftex.def)             Requested size: 256.07481pt x 93.50299pt.
+<Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Decry.png, id=734, 554.07pt x 182.18062pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Decry.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Decry.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Decry.png  used on input line 437.
+(pdftex.def)             Requested size: 256.07481pt x 84.19882pt.
+
+Overfull \hbox (16.94377pt too wide) in paragraph at lines 434--438
+[][] [][]
+ []
+
+<Stanford_Crypto_1/fig/03_block_cipher/nonc-based CBC.png, id=736, 559.33969pt x 182.18062pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/nonc-based CBC.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/nonc-based CBC.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/nonc-based CBC.png  used on input line 448.
+(pdftex.def)             Requested size: 409.72125pt x 133.45497pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \end{theorem}
+                   pdfTeX warning (ext4): destination with the same identifier (name{figure.3.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.469 \end{theorem}
+                    <./Stanford_Crypto_1/fig/03_block_cipher/ECB Mode.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Encry.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/CBC with Random IV Decry.png (PNG copy)>]
+<Stanford_Crypto_1/fig/03_block_cipher/rand ctr-mode.png, id=749, 549.55313pt x 131.74219pt>
+File: Stanford_Crypto_1/fig/03_block_cipher/rand ctr-mode.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/03_block_cipher/rand ctr-mode.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/03_block_cipher/rand ctr-mode.png  used on input line 486.
+(pdftex.def)             Requested size: 409.72125pt x 98.22342pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.21}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.514 T
+       hen we introduce two useful method of block cipher: AES and DES. AES ...pdfTeX warning (ext4): destination with the same identifier (name{figure.3.22}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.514 T
+       hen we introduce two useful method of block cipher: AES and DES. AES ... <./Stanford_Crypto_1/fig/03_block_cipher/nonc-based CBC.png (PNG copy)> <./Stanford_Crypto_1/fig/03_block_cipher/rand ctr-mode.png (PNG copy)>]) [20]
+Chapter 4.
+(Stanford_Crypto_1/Chapters/04_Integrity.tex
+<Stanford_Crypto_1/fig/04_Integrity/MAC Frame Work.png, id=766, 530.73282pt x 146.79843pt>
+File: Stanford_Crypto_1/fig/04_Integrity/MAC Frame Work.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/MAC Frame Work.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/MAC Frame Work.png  used on input line 24.
+(pdftex.def)             Requested size: 409.72125pt x 113.32857pt.
+ [21
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.43     \item a
+                n attacker cannot produce a valid tag for a new message,  ev... <./Stanford_Crypto_1/fig/04_Integrity/MAC Frame Work.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/Game for MAC.png, id=776, 535.2497pt x 176.15813pt>
+File: Stanford_Crypto_1/fig/04_Integrity/Game for MAC.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/Game for MAC.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/Game for MAC.png  used on input line 53.
+(pdftex.def)             Requested size: 409.72125pt x 134.8519pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.99     \item L
+                ook for a collision $\left(t_{i}=t_{j}\right)$. If not found... <./Stanford_Crypto_1/fig/04_Integrity/Game for MAC.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/The birthday paradox.png, id=793, 541.27219pt x 324.46219pt>
+File: Stanford_Crypto_1/fig/04_Integrity/The birthday paradox.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/The birthday paradox.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/The birthday paradox.png  used on input line 119.
+(pdftex.def)             Requested size: 409.72125pt x 245.61354pt.
+<Stanford_Crypto_1/fig/04_Integrity/MD iterated construction.png, id=795, 560.0925pt x 151.3153pt>
+File: Stanford_Crypto_1/fig/04_Integrity/MD iterated construction.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/MD iterated construction.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/MD iterated construction.png  used on input line 141.
+(pdftex.def)             Requested size: 409.72125pt x 110.69475pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 T
+       he \textbf{PB} part is the padding block. [10000$\cdots$000 || msg\_l... <./Stanford_Crypto_1/fig/04_Integrity/The birthday paradox.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/Davies_Meyer Method.png, id=809, 289.08pt x 94.85437pt>
+File: Stanford_Crypto_1/fig/04_Integrity/Davies_Meyer Method.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/Davies_Meyer Method.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/Davies_Meyer Method.png  used on input line 171.
+(pdftex.def)             Requested size: 256.07481pt x 84.02931pt.
+<Stanford_Crypto_1/fig/04_Integrity/SHA256 DM Method.png, id=811, 367.3725pt x 130.23656pt>
+File: Stanford_Crypto_1/fig/04_Integrity/SHA256 DM Method.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/SHA256 DM Method.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/SHA256 DM Method.png  used on input line 184.
+(pdftex.def)             Requested size: 256.07481pt x 90.78738pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208     I
+           f $\mathrm{F}: \mathrm{K} \times \mathrm{X} \rightarrow \mathrm{Y...pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.208     I
+           f $\mathrm{F}: \mathrm{K} \times \mathrm{X} \rightarrow \mathrm{Y... <./Stanford_Crypto_1/fig/04_Integrity/MD iterated construction.png (PNG copy)> <./Stanford_Crypto_1/fig/04_Integrity/Davies_Meyer Method.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/CBC_MAC Structure.png, id=824, 587.94656pt x 268.75406pt>
+File: Stanford_Crypto_1/fig/04_Integrity/CBC_MAC Structure.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/CBC_MAC Structure.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/CBC_MAC Structure.png  used on input line 232.
+(pdftex.def)             Requested size: 409.72125pt x 187.28587pt.
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.246 A
+       dversary works as follows:pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.246 A
+       dversary works as follows: <./Stanford_Crypto_1/fig/04_Integrity/SHA256 DM Method.png (PNG copy)> <./Stanford_Crypto_1/fig/04_Integrity/CBC_MAC Structure.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/ISO CBC Padding.png, id=834, 606.01407pt x 118.94438pt>
+File: Stanford_Crypto_1/fig/04_Integrity/ISO CBC Padding.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/ISO CBC Padding.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/ISO CBC Padding.png  used on input line 265.
+(pdftex.def)             Requested size: 409.72125pt x 80.41829pt.
+<Stanford_Crypto_1/fig/04_Integrity/NIST CBC Padding.png, id=836, 625.58719pt x 186.6975pt>
+File: Stanford_Crypto_1/fig/04_Integrity/NIST CBC Padding.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/NIST CBC Padding.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/NIST CBC Padding.png  used on input line 275.
+(pdftex.def)             Requested size: 409.72125pt x 122.27777pt.
+<Stanford_Crypto_1/fig/04_Integrity/Randomize MAC.png, id=838, 578.16pt x 200.24812pt>
+File: Stanford_Crypto_1/fig/04_Integrity/Randomize MAC.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/Randomize MAC.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/Randomize MAC.png  used on input line 286.
+(pdftex.def)             Requested size: 409.72125pt x 141.90826pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Stanford_Crypto_1/fig/04_Integrity/NMAC Structure.png, id=840, 687.31781pt x 340.27126pt>
+File: Stanford_Crypto_1/fig/04_Integrity/NMAC Structure.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/NMAC Structure.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/NMAC Structure.png  used on input line 300.
+(pdftex.def)             Requested size: 409.72125pt x 202.84033pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.310     F
+           or any $L>0$,pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.310     F
+           or any $L>0$, <./Stanford_Crypto_1/fig/04_Integrity/ISO CBC Padding.png (PNG copy)> <./Stanford_Crypto_1/fig/04_Integrity/NIST CBC Padding.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/PMAC_Structure.png, id=856, 594.72188pt x 281.55188pt>
+File: Stanford_Crypto_1/fig/04_Integrity/PMAC_Structure.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/PMAC_Structure.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/PMAC_Structure.png  used on input line 342.
+(pdftex.def)             Requested size: 409.72125pt x 193.96597pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.345 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.345 \end{figure}
+                   <./Stanford_Crypto_1/fig/04_Integrity/Randomize MAC.png (PNG copy)> <./Stanford_Crypto_1/fig/04_Integrity/NMAC Structure.png (PNG copy)>]
+<Stanford_Crypto_1/fig/04_Integrity/HMAC Structure.png, id=864, 451.6875pt x 519.9425pt>
+File: Stanford_Crypto_1/fig/04_Integrity/HMAC Structure.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/04_Integrity/HMAC Structure.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/04_Integrity/HMAC Structure.png  used on input line 388.
+(pdftex.def)             Requested size: 256.07481pt x 294.78357pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.4.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.397     \item C
+                 an be proven under certain PRF assumptions about h(.,.) <./Stanford_Crypto_1/fig/04_Integrity/PMAC_Structure.png (PNG copy)>]) [29pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.77 \chapter
+             {Authenticated Encryption} <./Stanford_Crypto_1/fig/04_Integrity/HMAC Structure.png>]
+Chapter 5.
+(Stanford_Crypto_1/Chapters/05_Authenticated Encryption.tex
+<Stanford_Crypto_1/fig/05_Authentication/An active attack to MAC.png, id=882, 554.07pt x 144.54pt>
+File: Stanford_Crypto_1/fig/05_Authentication/An active attack to MAC.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/An active attack to MAC.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/An active attack to MAC.png  used on input line 12.
+(pdftex.def)             Requested size: 256.07481pt x 66.80237pt.
+<Stanford_Crypto_1/fig/05_Authentication/CCA Experiment.png, id=884, 583.42969pt x 255.95625pt>
+File: Stanford_Crypto_1/fig/05_Authentication/CCA Experiment.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/CCA Experiment.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/CCA Experiment.png  used on input line 36.
+(pdftex.def)             Requested size: 256.07481pt x 112.3438pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Stanford_Crypto_1/fig/05_Authentication/Ciphertext Integrity.png, id=886, 567.62062pt x 205.5178pt>
+File: Stanford_Crypto_1/fig/05_Authentication/Ciphertext Integrity.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/Ciphertext Integrity.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/Ciphertext Integrity.png  used on input line 57.
+(pdftex.def)             Requested size: 256.07481pt x 92.72049pt.
+[30
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.60 \end{figure}
+                  <./Stanford_Crypto_1/fig/05_Authentication/An active attack to MAC.png (PNG copy)>] [31pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.106     \item s
+                 ecurity against chosen ciphertext attackpdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.106     \item s
+                 ecurity against chosen ciphertext attack <./Stanford_Crypto_1/fig/05_Authentication/CCA Experiment.png (PNG copy)> <./Stanford_Crypto_1/fig/05_Authentication/Ciphertext Integrity.png (PNG copy)>]
+<Stanford_Crypto_1/fig/05_Authentication/M then E.png, id=905, 447.17062pt x 55.70813pt>
+File: Stanford_Crypto_1/fig/05_Authentication/M then E.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/M then E.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/M then E.png  used on input line 131.
+(pdftex.def)             Requested size: 256.07481pt x 31.90186pt.
+<Stanford_Crypto_1/fig/05_Authentication/E then M.png, id=907, 447.17062pt x 48.93282pt>
+File: Stanford_Crypto_1/fig/05_Authentication/E then M.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/E then M.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/E then M.png  used on input line 144.
+(pdftex.def)             Requested size: 256.07481pt x 28.0219pt.
+<Stanford_Crypto_1/fig/05_Authentication/E and M.png, id=909, 440.39531pt x 56.46094pt>
+File: Stanford_Crypto_1/fig/05_Authentication/E and M.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/E and M.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/E and M.png  used on input line 157.
+(pdftex.def)             Requested size: 256.07481pt x 32.83092pt.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175     \item M
+                 AC-then-Encrypt may be insecure against CCA attacks. Howeve...pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175     \item M
+                 AC-then-Encrypt may be insecure against CCA attacks. Howeve...pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.175     \item M
+                 AC-then-Encrypt may be insecure against CCA attacks. Howeve... <./Stanford_Crypto_1/fig/05_Authentication/M then E.png (PNG copy)> <./Stanford_Crypto_1/fig/05_Authentication/E then M.png (PNG copy)> <./Stanford_Crypto_1/fig/05_Authentication/E and M.png (PNG copy)>]
+<Stanford_Crypto_1/fig/05_Authentication/OCB.png, id=926, 569.12625pt x 217.5628pt>
+File: Stanford_Crypto_1/fig/05_Authentication/OCB.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/05_Authentication/OCB.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/05_Authentication/OCB.png  used on input line 185.
+(pdftex.def)             Requested size: 256.07481pt x 97.8957pt.
+) [33pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 \chapter
+             {Other Thing of Symmetric Encryption} <./Stanford_Crypto_1/fig/05_Authentication/OCB.png (PNG copy)>]
+Chapter 6.
+(Stanford_Crypto_1/Chapters/06_Other_Thing_of_Sym_Enc.tex
+<Stanford_Crypto_1/fig/06_Other_Thing/Extract-then-Expland Paradigm.png, id=935, 431.36156pt x 124.21407pt>
+File: Stanford_Crypto_1/fig/06_Other_Thing/Extract-then-Expland Paradigm.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/06_Other_Thing/Extract-then-Expland Paradigm.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/06_Other_Thing/Extract-then-Expland Paradigm.png  used on input line 39.
+(pdftex.def)             Requested size: 256.07481pt x 73.74052pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[34
+
+]
+<Stanford_Crypto_1/fig/06_Other_Thing/Det CPA Security.png, id=946, 563.10374pt x 213.79875pt>
+File: Stanford_Crypto_1/fig/06_Other_Thing/Det CPA Security.png Graphic file (type png)
+<use Stanford_Crypto_1/fig/06_Other_Thing/Det CPA Security.png>
+Package pdftex.def Info: Stanford_Crypto_1/fig/06_Other_Thing/Det CPA Security.png  used on input line 67.
+(pdftex.def)             Requested size: 256.07481pt x 97.22638pt.
+) [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \chapter
+             {Basic Key Exchange}pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \chapter
+             {Basic Key Exchange} <./Stanford_Crypto_1/fig/06_Other_Thing/Extract-then-Expland Paradigm.png (PNG copy)> <./Stanford_Crypto_1/fig/06_Other_Thing/Det CPA Security.png (PNG copy)>]
+Chapter 7.
+(Stanford_Crypto_1/Chapters/07_Basic_Key_Exchange.tex) [36
+
+] (main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C17E24176F752542224D85D323834688;16350.
+ ) 
+Here is how much of TeX's memory you used:
+ 12403 strings out of 478864
+ 198513 string characters out of 2855255
+ 518649 words of memory out of 3000000
+ 29694 multiletter control sequences out of 15000+600000
+ 430406 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,11n,66p,629b,575s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0800.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti0600.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\10120\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmmib10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Softwares/Work_Tools/Miktex/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on main.pdf (41 pages, 1774141 bytes).
+PDF statistics:
+ 1611 PDF objects out of 1728 (max. 8388607)
+ 324 named destinations out of 1000 (max. 500000)
+ 1003 words of extra memory for PDF output out of 10000 (max. 10000000)
+

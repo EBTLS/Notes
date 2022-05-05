@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title></title>
+    <dateModified></dateModified>
+    <ownerName></ownerName>
+  </head>
+  <body>
+<outline text="Week 1: Representation of Network">
+</outline>
+<outline text="1. Network" _note="Network is:&#10;&#10;1.  Service → function → software, processes&#10;&#10;2.  Topology → graph → hardware, structure">
+</outline>
+<outline text="2. Graph" _note="N nodes (vertices), L links (edges)">
+  <outline text="2.1. Three equivalent representations of a Graph" _note="Topology domain; spectral domain; geometric domain">
+  </outline>
+  <outline text="2.2. Topology domain">
+    <outline text="2.2.1. Computer structures:" _note="1.  List of neighbors:&#10;&#10;    for each node, the set of direct neighbors is listed&#10;&#10;2.  List of links:&#10;&#10;    link L has: L = ( i, j ) = ( j, i ) or L = （ l-, l+）">
+    </outline>
+    <outline text="2.2.2. Graph related matrices:">
+      <outline text="2.2.2.1. Adjacency matrix（A）" _note="Number of neighbors of node i is the degree：  &#10;$d\_i=\\sum\_{k=1}^{N} a\_{ik}$">
+      </outline>
+      <outline text="2.2.2.2. Incidence matrix (B)" _note="each row is represent a link, the start point is equal to 1, the target&#10;point is equal to -1.&#10;&#10;1.  size: *N* × *L*&#10;&#10;2.  B specifies the directions of links&#10;&#10;3.  each row of B sum to zero&#10;&#10;    *u* = (1, 1, ..., 1)  *u*^(*T*)*B* = 0">
+      </outline>
+      <outline text="2.2.2.3. Laplacian matrix (Q)" _note="*Q* = *B* ⋅ *B*^(*T*) = *Δ* − *A*&#10;&#10;*Δ* = *d**i**a**g*(*d*₁, *d*₂, *d*₃, ..., *d*_(*N*))  *o**f*  *A*&#10;&#10;1.  each row/line of Q sum to zero&#10;&#10;    *u* = (1, 1, ..., 1)  *u*^(*T*)*Q* = *Q* ⋅ *u* = 0&#10;&#10;    *u* → *e**i**g**e**n**v**e**c**t**o**r*  *o**f*  *Q*  *f**o**r*  *μ* = 0&#10;&#10;    &gt; it is easy to prove through the relations between Q and B&#10;&#10;2.  A, Q, B are all symmetric">
+      </outline>
+    </outline>
+  </outline>
+  <outline text="2.3. Weighted graph">
+    <outline text="2.3.1. Unweighted graph" _note="all nodes and all links are of the same type">
+    </outline>
+    <outline text="2.3.2. Weighted graph" _note="Each node and/or link can be different&#10;&#10;1.  A weighted adjacency matrix W specifies the link weights">
+    </outline>
+    <outline text="2.3.3. Representations of Weighted graph" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\weighted graph representation.png)">
+    </outline>
+  </outline>
+  <outline text="2.4. Classes of Graphs">
+    <outline text="2.4.1. Trees" _note="*L* = *N* − 1&#10;&#10;special types: star, path graph">
+    </outline>
+    <outline text="2.4.2. Ring" _note="*L* = *N*">
+    </outline>
+    <outline text="2.4.3. Complete Graph &lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;K&lt;/em&gt;&lt;sub&gt;&lt;em&gt;n&lt;/em&gt;&lt;/sub&gt;&lt;/span&gt;" _note="$L = \\frac {N \\cdot (N-1)}{2}$&#10;&#10;![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\special_connected_graphs.png)">
+    </outline>
+    <outline text="2.4.4. Null graph">
+    </outline>
+    <outline text="2.4.5. Complement &lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;G&lt;/em&gt;&lt;sup&gt;&lt;em&gt;c&lt;/em&gt;&lt;/sup&gt;&lt;/span&gt;" _note="If there is a link between two nodes in G, there is none in *G*^(*c*)&#10;&#10;1.  if G is not connected, than *G*^(*c*) will be connected&#10;&#10;2.  *A*^(*c*) = *J* − *I* − *A*  *w**h**e**r**e*  *J* = *u* ⋅ *u*^(*T*)">
+    </outline>
+    <outline text="2.4.6. Line graph I(G)" _note="Link in G → nodes&#10;&#10;Two links has a common node → two nodes is connected in I(G)">
+    </outline>
+    <outline text="2.4.7. Subgraph" _note="1.  How to find the adjacency matrix of a subgraph:&#10;&#10;    ![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\subgraph_matrix.png)&#10;&#10;2.  Some property of the new matrix&#10;&#10;    $  A\_{N \\times N}=\\left\[ \\begin{matrix} A\_s &amp; B \\\\ C &amp; A\_{G \\setminus S} \\end{matrix} \\right\]=\\left \[ \\begin{matrix} (A\_1)\_{m \\times m} &amp; B\_{m \\times n} \\\\ C\_{n \\times m} &amp; (A\_2)\_{n \\times n} \\end{matrix} \\right \]$&#10;&#10;    B is interconnection matrix and represents the cut set of graph.&#10;    Number of links in B equals *u*^(*T*) ⋅ *B* ⋅ *u*">
+    </outline>
+    <outline text="2.4.8. Turan Graph" _note="Among all graphs with N nodes, the graph with most links that does not&#10;contain a complete graph Kr is the **Turan graph**  &#10;T(n,r-1). (r-1 means r-1partitions)&#10;&#10;1.  Turan's Theorem&#10;&#10;    Any graph on N nodes with more links than&#10;    $L= \\left \[ \\frac {r-1}{2r} \\cdot N^2 \\right\]$ has a clique&#10;    *K*_(*r*)">
+    </outline>
+    <outline text="2.4.9. Lattice" _note="A **lattice graph**, **mesh graph**, or **grid graph**, is a&#10;[graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics))&#10;whose [drawing](https://en.wikipedia.org/wiki/Graph_drawing),&#10;[embedded](https://en.wikipedia.org/wiki/Embedding) in some [Euclidean&#10;space](https://en.wikipedia.org/wiki/Euclidean_space) **R\***n\*, forms&#10;a [regular tiling](https://en.wikipedia.org/wiki/Regular_tiling)">
+    </outline>
+  </outline>
+</outline>
+  </body>
+</opml>

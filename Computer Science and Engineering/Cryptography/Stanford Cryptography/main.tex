@@ -1,0 +1,86 @@
+\documentclass[11pt, a4paper, oneside]{book}
+\usepackage{amsmath, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+
+%%%%%%%% CREATE DOCUMENT STRUCTURE %%%%%%%%
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{subfig}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=2cm,bottom=2.5cm,left=1.5cm,right=1.5cm,marginparwidth=1.75cm]{geometry}
+
+%user package
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{subfigure}
+% \usepackage{indentfirst}
+
+% 首行缩进
+% \setlength{\parindent}{2em}
+
+\title{{\Huge{\textbf{Cryptography and Security}}}\\}
+\author{Jiaxuan Zhang}
+\date{\today}
+\linespread{1.2}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{model}[theorem]{Model}
+\newtheorem{method}[theorem]{Method}
+
+\begin{document}
+
+\maketitle
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\begin{center}
+    \Huge\textbf{Forword}
+\end{center}
+
+\begin{flushright}
+    \begin{tabular}{c}
+        Jiaxuan Zhang\\
+        \today
+    \end{tabular}
+\end{flushright}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+
+\part{Coursera Stanford Cryptography I}
+
+\chapter{Introduction}
+\input{Stanford_Crypto_1/Chapters/01_Introduction.tex}
+
+\chapter{Stream Cipher}
+\input{Stanford_Crypto_1/Chapters/02_Stream_Cipher.tex}
+
+\chapter{Block Cipher}
+\input{Stanford_Crypto_1/Chapters/03_Block_Cipher.tex}
+
+\chapter{Integrity}
+\input{Stanford_Crypto_1/Chapters/04_Integrity.tex}
+
+\chapter{Authenticated Encryption}
+\input{Stanford_Crypto_1/Chapters/05_Authenticated Encryption.tex}
+
+\chapter{Other Thing of Symmetric Encryption}
+\input{Stanford_Crypto_1/Chapters/06_Other_Thing_of_Sym_Enc.tex}
+
+\chapter{Basic Key Exchange}
+\input{Stanford_Crypto_1/Chapters/07_Basic_Key_Exchange.tex}
+
+\end{document}

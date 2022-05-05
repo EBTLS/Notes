@@ -1,0 +1,143 @@
+\babel@toc {english}{}
+\contentsline {part}{I\hspace {1em}Coursera Stanford Cryptography I}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Goals of Crypto}{2}{section.1.1}%
+\contentsline {subsubsection}{Confidentality}{2}{section*.2}%
+\contentsline {subsubsection}{Integrity}{2}{section*.3}%
+\contentsline {subsubsection}{Authenticated}{2}{section*.4}%
+\contentsline {section}{\numberline {1.2}Some Historic Examples}{2}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Substitution Cipher: Caesar Cipher}{2}{subsection.1.2.1}%
+\contentsline {subsubsection}{How to break a substitution cipher}{2}{section*.5}%
+\contentsline {subsection}{\numberline {1.2.2}Vigener Cipher}{2}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Introduction of Discrete Probability}{3}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Randomized Algorithms}{3}{subsection.1.3.1}%
+\contentsline {subsubsection}{Deterministic Algorithm}{3}{section*.6}%
+\contentsline {subsubsection}{Randomized Algorithm}{3}{section*.7}%
+\contentsline {subsection}{\numberline {1.3.2}An Important Property of XOR}{3}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}The Birthday Paradox}{3}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Semantic Security}{3}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Stream Cipher}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Information Theoretic Security and The One Time Pad}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Symmetric Ciphers}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Perfect Security}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}The One-Time Pad: Vernam Cipher}{4}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Pseudo Random Generators}{5}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Security of RPG}{5}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Stream Ciphers: Encrpytion with a PRG}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Attacks on Stream Ciphers and The One Time Pad}{6}{section.2.4}%
+\contentsline {subsubsection}{Two-Time Pad is Insecure}{6}{section*.8}%
+\contentsline {subsubsection}{One-Time Pad is malleable: not integrity}{6}{section*.9}%
+\contentsline {section}{\numberline {2.5}Real-World Stream Ciphers}{6}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Old Example: CSS}{6}{subsection.2.5.1}%
+\contentsline {subsubsection}{Linear feedback shift registers (LFSR)}{7}{section*.10}%
+\contentsline {subsection}{\numberline {2.5.2}Modern Example: eStream: Salsa20}{7}{subsection.2.5.2}%
+\contentsline {subsubsection}{eStream Framework}{7}{section*.11}%
+\contentsline {subsubsection}{Salsa20}{7}{section*.12}%
+\contentsline {section}{\numberline {2.6}Security Analysis of Stream Ciphers}{7}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Semantic Security for One-Time Pad}{7}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Stream Ciphers are Semantically Secure}{8}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Summary}{8}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Block Cipher}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}PRPs and PRFs}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Secure PRFs and Secure PRPs}{9}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Constructing PRGs from PRFs}{10}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Constructing PRFs from PRGs}{10}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Block Ciphers}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The Data Encryption Standard (DES)}{11}{subsection.3.2.1}%
+\contentsline {subsubsection}{Feistel Network}{12}{section*.13}%
+\contentsline {subsection}{\numberline {3.2.2}DES Round Function}{12}{subsection.3.2.2}%
+\contentsline {subsubsection}{Triple DES}{13}{section*.14}%
+\contentsline {subsubsection}{Meet in the Middle Attack}{13}{section*.15}%
+\contentsline {subsubsection}{DESX}{13}{section*.16}%
+\contentsline {subsection}{\numberline {3.2.3}AES}{14}{subsection.3.2.3}%
+\contentsline {subsubsection}{Schematic of AES-128}{14}{section*.17}%
+\contentsline {section}{\numberline {3.3}Security of Block Ciphers}{15}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Exhaustive Search Attacks}{15}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Semantic Security for Many-Time Key}{15}{subsection.3.3.2}%
+\contentsline {subsubsection}{Property}{16}{section*.18}%
+\contentsline {subsubsection}{Solution 1: Randomized Encryption}{16}{section*.19}%
+\contentsline {subsubsection}{Solution 2: Nonce-Based Encryption}{16}{section*.20}%
+\contentsline {subsection}{\numberline {3.3.3}More Attacks on Block Ciphers}{17}{subsection.3.3.3}%
+\contentsline {subsubsection}{Attacks on the implementation}{17}{section*.21}%
+\contentsline {subsection}{\numberline {3.3.4}Modes of Operations}{18}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}ECB: An Incorrect Use of a PRP}{18}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}CBC with random IV}{18}{subsection.3.3.6}%
+\contentsline {subsubsection}{Nonce-Based CBC}{18}{section*.22}%
+\contentsline {subsubsection}{Padding in CBC}{18}{section*.23}%
+\contentsline {subsubsection}{CPA Security}{19}{section*.24}%
+\contentsline {subsection}{\numberline {3.3.7}Random Counter(ctr) Mode}{19}{subsection.3.3.7}%
+\contentsline {subsubsection}{Nonce-Based ctr mode}{19}{section*.25}%
+\contentsline {subsubsection}{CPA Security}{19}{section*.26}%
+\contentsline {section}{\numberline {3.4}Summary}{20}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Integrity}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Message Integrity}{21}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}MACs}{21}{subsection.4.1.1}%
+\contentsline {subsubsection}{MAC Framework}{21}{section*.27}%
+\contentsline {subsection}{\numberline {4.1.2}Secure MAC}{21}{subsection.4.1.2}%
+\contentsline {subsubsection}{Attackers in MACs}{21}{section*.28}%
+\contentsline {subsubsection}{Motivation of Secure MAC}{22}{section*.29}%
+\contentsline {subsubsection}{Definition of Secure MAC}{22}{section*.30}%
+\contentsline {section}{\numberline {4.2}Collision Resistance}{22}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Introduction}{22}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Generic Birthday Attack}{22}{subsection.4.2.2}%
+\contentsline {subsubsection}{Generic Attack on C.R. functions}{22}{section*.31}%
+\contentsline {subsubsection}{The Birthday Paradox}{23}{section*.32}%
+\contentsline {section}{\numberline {4.3}Construction of Collision Resistance}{23}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The Merkle-Damagard Paradigm}{23}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Constructing Compression Functions}{24}{subsection.4.3.2}%
+\contentsline {subsubsection}{Construct Compression Function from Block Cipher}{24}{section*.33}%
+\contentsline {subsubsection}{Provable Compression functions}{24}{section*.34}%
+\contentsline {section}{\numberline {4.4}MACs based on PRFs}{25}{section.4.4}%
+\contentsline {subsubsection}{Property}{25}{section*.35}%
+\contentsline {subsubsection}{Motivation}{25}{section*.36}%
+\contentsline {subsection}{\numberline {4.4.1}ECBC-MAC}{25}{subsection.4.4.1}%
+\contentsline {subsubsection}{CBC-MAC Padding}{26}{section*.37}%
+\contentsline {subsubsection}{Randomize MAC}{26}{section*.38}%
+\contentsline {subsection}{\numberline {4.4.2}NMAC}{26}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Security Analysis of ECBC-MAC and NMAC}{27}{subsection.4.4.3}%
+\contentsline {subsubsection}{Comparison of ECBC-MAC and NMAC}{27}{section*.39}%
+\contentsline {subsection}{\numberline {4.4.4}PMAC}{28}{subsection.4.4.4}%
+\contentsline {subsubsection}{Property of PMAC}{28}{section*.40}%
+\contentsline {subsubsection}{Security Analysis}{28}{section*.41}%
+\contentsline {subsection}{\numberline {4.4.5}Carter-Wegman MAC}{28}{subsection.4.4.5}%
+\contentsline {subsubsection}{One-time MAC}{28}{section*.42}%
+\contentsline {section}{\numberline {4.5}MACs from Collision Resistance}{28}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}HMAC}{28}{subsection.4.5.1}%
+\contentsline {subsubsection}{Properties:}{29}{section*.43}%
+\contentsline {section}{\numberline {4.6}Timing Attacks on MAC Verification}{29}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Summary}{29}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Authenticated Encryption}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Passive Attack and Active Attack}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Chosen Ciphertext Attacks}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Ciphetext Integrity}{31}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Authenticated Encryption}{31}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Conceptions}{31}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Security Analysis}{32}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Constructions from Ciphers and MACs}{32}{subsection.5.4.3}%
+\contentsline {subsubsection}{MAC-then-Encrypt}{32}{section*.44}%
+\contentsline {subsubsection}{Encrypt-then-MAC}{32}{section*.45}%
+\contentsline {subsubsection}{Encrypt-and-MAC}{32}{section*.46}%
+\contentsline {subsubsection}{Some Standard}{32}{section*.47}%
+\contentsline {subsection}{\numberline {5.4.4}Security Analysis}{33}{subsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.4.5}Direct Construction from PRP: OCB}{33}{subsection.5.4.5}%
+\contentsline {subsection}{\numberline {5.4.6}CBC padding attacks}{33}{subsection.5.4.6}%
+\contentsline {section}{\numberline {5.5}Summary}{33}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Other Thing of Symmetric Encryption}{34}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Key Derivation}{34}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Motivation}{34}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Case 1: Source Key is Uniform}{34}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Case 2: Source Key is not Uniform}{34}{subsection.6.1.3}%
+\contentsline {subsubsection}{Extract-then-Expand Paradigm}{34}{section*.48}%
+\contentsline {subsubsection}{HKDF: a KDF from HMAC}{35}{section*.49}%
+\contentsline {section}{\numberline {6.2}Deterministic Encryption}{35}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Deterministic CPA Security}{35}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}Tweakable Encryption}{35}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Format Preserving Encryption}{35}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Basic Key Exchange}{36}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Trusted 3rd Parties}{36}{section.7.1}%
+\contentsline {section}{\numberline {7.2}}{36}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Merkle Puzzles}{36}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}The Diffie-Hellman Protocol}{36}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Public-Key Encryption}{36}{subsection.7.2.3}%
+\contentsline {section}{\numberline {7.3}Modular Arithmetic}{36}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Easy and Hard Problems}{36}{section.7.4}%

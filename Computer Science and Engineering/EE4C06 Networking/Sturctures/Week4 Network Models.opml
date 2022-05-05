@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title></title>
+    <dateModified></dateModified>
+    <ownerName></ownerName>
+  </head>
+  <body>
+<outline text="Week4： Network Models">
+</outline>
+<outline text="1. Deterministic Networks">
+  <outline text="1.1. Complete Graph Kn on N" _note="Complete Graph:&#10;&#10;a **complete graph** is a simple undirected graph in which every pair of&#10;distinct vertices is connected by a unique edge.&#10;&#10;1.  any graph is a subgraph of *K*_(*n*)">
+  </outline>
+  <outline text="1.2. Lattice in N-dimensions" _note="each node has 2N neighbors (except for the nodes on the boundary)">
+  </outline>
+  <outline text="1.3. Multipartite graphs" _note="In graph theory, a part of mathematics, a **k-partite graph** is a graph&#10;whose vertices are or can be partitioned into k different independent&#10;sets. Equivalently, it is a graph that can be **colored with k colors,&#10;so that no two endpoints of an edge have the same color.** When k = 2&#10;these are the **bipartite graphs**, and when k = 3 they are called the&#10;**tripartite graphs**.">
+  </outline>
+  <outline text="1.4. Regular Graphs" _note="In graph theory, a **regular graph** is a graph where each vertex has&#10;the same number of neighbors.&#10;&#10;1.  Regular graphs can be random as well: Random Regular Graphs">
+  </outline>
+</outline>
+<outline text="2. Erdös-Rényi random graph (ER-Graph)" _note="Basic Definition: The ER random graph *G*_(*p*)(*n*) is a graph with N&#10;nodes and each node pair is connected independently with probability p">
+  <outline text="2.1. Two Variants" _note="1.  *G*_(*p*)(*n*) each link has existence probability p, independently&#10;    of all the other links (similar with Basic Definition)&#10;&#10;2.  *G*(*N*, *L*) has precisely L links and each link has the same&#10;    probability p. Equivalently, all graphs with *n* nodes and *M* edges&#10;    have equal probability of $p^M (1-p)^{\\tbinom{n}{2}-M}$">
+  </outline>
+  <outline text="2.2. Implement" _note="1.  Variants 1: for each link, generate a random value from a&#10;    distribution f and compare it with the corresponding quantile value&#10;    of f&#10;&#10;2.  Variants 2:&#10;&#10;    1.  numbered all links, random choose L numbers from&#10;        $\[1,\\frac {N(N-1)}{2}\]$&#10;&#10;    2.  give all links a value, sort them and choose extremum L">
+  </outline>
+  <outline text="2.3. Adjacency Matrix" _note="*A* = (*a*_(*i**j*))_(*n*) with *a*_(*i**j*) (*i* ≠ *j*) is is a&#10;Bernoulli random variable with mean p">
+  </outline>
+  <outline text="2.4. Complement Graph" _note="The complement graph of *G*_(*p*)(*N*) is *G*_(1 − *p*)(*N*)&#10;&#10;*p* = 1 → *G*₁(*N*) is the complete graph *K*_(*n*)&#10;&#10;*p* = 0 → *G*₀(*N*) is the empty or null graph">
+  </outline>
+  <outline text="2.5. Parameters" _note="1.  **Average number of links**&#10;&#10;    $E\[L\]=p \\cdot \\frac {N(N-1)}{2}$&#10;&#10;2.  **Link Density**&#10;&#10;    $p=\\frac {E\[L\]}{L\_{max}}$&#10;&#10;3.  **Average Clustering coefficient**&#10;&#10;    *E*\[*C*_(*G*_(*p*)(*N*))\] = *p*">
+  </outline>
+  <outline text="2.6. Degree distribution of Binomial Distribution" _note="Supposing the degree distribution is Binomial distribution&#10;&#10;$P\[D=k\]=\\binom{N-1}{k}p^k(1-p)^{N-1-K} \\approx \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac {(k-\\mu)^2}{2 \\sigma ^2}}$&#10;&#10;Attention: because for N nodes graph, for a specific point we only need&#10;to consider other N-1 nodes' possibility to connect with it. So it is&#10;$\\binom{N-1}{k}$ not $\\binom{N}{k}$&#10;&#10;![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\D_Distribution_B_Distribution.png)&#10;&#10;1.  *μ* = *E*\[*D*\] = (*n* − 1)*p*  ,  *σ*² = *V**a**r*\[*D*\] = (*N* − 1)*p*(1 − *p*)&#10;&#10;2.  Limit Behavior for Large N&#10;&#10;-   p constant:&#10;    $\\frac{\\mu}{\\sigma}=\\sqrt{\\frac{(N-1)p}{1-p}} \\rightarrow 0$&#10;&#10;    that means with larger N,&#10;    $P\[D=k\] \\rightarrow \\frac {1}{\\sigma \\sqrt{2\\pi}}$, the graph&#10;    tends toward a regular graph&#10;&#10;-   if we keep E\[D\] constant, that means p towards smaller when N get&#10;    larger, then&#10;&#10;    $P\[D=k\] \\rightarrow \\frac{\\mu^k}{k!}e^{-\\mu}$">
+  </outline>
+  <outline text="2.7. Phase Transition Property" _note="*p*_(*c*) ∝ *l**o**g**N*/*N* is a critical link density, that means:&#10;&#10;For large N and *p* = *l**o**g**N*/*N* + *x*/*N* (x here is to say this&#10;point is sensitive), and we have&#10;&#10;$P\[G\_p(N) \\quad is \\quad connected\] \\rightarrow \\left\\{&#10;\\begin{aligned}&#10;0 \\quad if \\quad x&amp;lt;0 \\\\&#10;1 \\quad if \\quad x&amp;gt;1 &#10;\\end{aligned}&#10;\\right.$&#10;&#10;![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\ER_critical point.png)">
+  </outline>
+  <outline text="2.8. Distribution of Eigenvalues of Adjacency Matrix of &lt;span class=&quot;math inline&quot;&gt;&lt;em&gt;G&lt;/em&gt;&lt;sub&gt;&lt;em&gt;p&lt;/em&gt;&lt;/sub&gt;(&lt;em&gt;N&lt;/em&gt;)&lt;/span&gt;" _note="For large N, Here is a histogram approximates the probability density&#10;function *f*_(*λ*)(*x*) of eigenvalues of the adjacency matrix A of a&#10;ER-Graph *G*_(*p*)(*N*)&#10;&#10;![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\D_eig_A_matrix.png)&#10;&#10;and we will have (Observations, do not need prove):&#10;&#10;$E\[\\lambda\]=0 \\longrightarrow E\[\\lambda^k\]=E\[(\\lambda-E\[\\lambda\])^k\]=\\frac{1}{N} \\sum\_{j=1}^N {\\lambda}\_j^k$&#10;&#10;1.  **Skewness** *S*_(*λ*) measures the lack of symmetry of the&#10;    distribution around the mean, and is defined as the normalized third&#10;    moment.&#10;&#10;![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\Skewness.png)">
+  </outline>
+</outline>
+<outline text="3. Small-World Graph of Watts-Strogatz">
+  <outline text="3.1. Small-World Graph" _note="A **small-world network** is a type of mathematical graph in which most&#10;nodes are not neighbors of one another, but the neighbors of any given&#10;node are likely to be neighbors of each other and most nodes can be&#10;reached from every other node by a small number of hops or steps.&#10;&#10;Specifically, a small-world network is defined to be a network where the&#10;typical distance L between two randomly chosen nodes (the number of&#10;steps required) grows proportionally to the logarithm of the number of&#10;nodes N in the network, that is *L* ∝ *L**o**g*(*n*)">
+  </outline>
+  <outline text="3.2. Small-World Experiment" _note="The small-world experiment comprised several experiments conducted by&#10;Stanley Milgram and other researchers examining the average path length&#10;for social networks of people in the United States. The research was&#10;ground-breaking in that it suggested that **human society is a&#10;small-world-type network characterized by short path-lengths**. The&#10;experiments are often associated with the phrase &quot;six degrees of&#10;separation&quot;, although Milgram did not use this term himself.">
+  </outline>
+  <outline text="3.3. Watts-Strogatz model" _note="The **Watts–Strogatz model** is a random graph generation model that&#10;produces graphs with small-world properties, including short average&#10;path lengths and high clustering">
+    <outline text="3.3.1. Advantages" _note="It is aimed to address two limitations of ER-Graphs:&#10;&#10;1.  They do not generate local clustering and triadic closures. Instead,&#10;    because they have a constant, random, and independent probability of&#10;    two nodes being connected, ER graphs have a low clustering&#10;    coefficient.&#10;&#10;2.  They do not account for the formation of hubs. Formally, the degree&#10;    distribution of ER graphs converges to a Poisson distribution,&#10;    rather than a power law observed in many real-world, scale-free&#10;    networks.\[3\]&#10;&#10;&gt; tradic\_closures: Triadic closure is the property among three nodes A,&#10;&gt; B, and C (representing people, for instance), that if the connections&#10;&gt; A-B and B-C exist, there is a tendency for the new connection A-C to&#10;&gt; be formed">
+    </outline>
+    <outline text="3.3.2. Algorithms" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\Watts_algorithms.png)">
+    </outline>
+    <outline text="3.3.3. Example" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\Small_world_example.png)">
+    </outline>
+    <outline text="3.3.4. Eigenvalues Spectrum Analysis" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\spectrum_small_world_graph.png)&#10;&#10;1.  In *f*_(*λ*)(*x*)&#10;&#10;-   peak → specific structure/pattern&#10;&#10;-   border, bell-shape around origin (x=0) → more randomness&#10;&#10;1.  *f*_(*λ*)( − *x*) = *f*_(*λ*)(*x*) ↔ *t**r**e**e*  *o**r*  *t**r**e**e*  *l**i**k**e*&#10;&#10;-   A bipartite graph has a symmetric spectrum (for each&#10;    $\\lambda \\rightarrow \\exist -\\lambda$ )&#10;&#10;-   ∀*t**r**e**e*→ can be represented as a bipartite graph&#10;&#10;&gt; bipartite graph:&#10;&gt;&#10;&gt; In the mathematical field of graph theory, a bipartite graph (or&#10;&gt; bigraph) is a graph whose vertices can be divided into two disjoint&#10;&gt; and independent sets U and V such that every edge connects a vertex in&#10;&gt; U to one in V. Vertex sets U and V are usually called the parts of the&#10;&gt; graph.&#10;&gt;&#10;&gt; Equivalently, a bipartite graph is a graph that does not contain any&#10;&gt; odd-length cycles.">
+    </outline>
+  </outline>
+</outline>
+<outline text="4. Barabasi-Albert Graph">
+  <outline text="4.1. Power Law Graph (Scale-Free network)" _note="A **scale-free network** is a network whose degree distribution follows&#10;a power law, at least asymptotically. That is, the fraction P(k) of&#10;nodes in the network having k connections to other nodes goes for large&#10;values of k as&#10;&#10;*P*(*D* = *k*) = *c* ⋅ *k*^( − *γ*)&#10;&#10;where *γ* is a parameter whose value is typically in the range&#10;2 &amp;lt; *γ* &amp;lt; 3 , although occasionally it may lie outside these&#10;bounds&#10;&#10;1.  Many real-world networks have approximately a power law degree&#10;    distribution&#10;&#10;2.  ER-graph is not appropriate the definition of scale-free network&#10;&#10;3.  Power law graph do not have characteristic length:&#10;&#10;    *P*\[*D* = *a**k*\] = *c* ⋅ *a*^( − *τ*) ⋅ *k*^( − *τ*) = *c* ⋅ *a*^( − *τ*) ⋅ *P*\[*D* = *k*\]&#10;&#10;    &gt; **characteristic length**:&#10;    &gt;&#10;    &gt; In physics, a **characteristic length** is an important dimension&#10;    &gt; that defines the scale of a physical system. Often, such a length&#10;    &gt; is used as an input to a formula in order to predict some&#10;    &gt; characteristics of the system, and it is usually required by the&#10;    &gt; construction of a dimensionless quantity, in the general framework&#10;    &gt; of dimensional analysis and in particular applications such as&#10;    &gt; fluid mechanics.&#10;    &gt;&#10;    &gt; Usually, if a object has the characteristic length and its&#10;    &gt; characteristic length keep constant, then the characteristic of&#10;    &gt; this object will not change.&#10;&#10;4.  A scale-free distribution is self-similar&#10;&#10;    &gt; **self-similar:**&#10;    &gt;&#10;    &gt; In mathematics, a self-similar object is exactly or approximately&#10;    &gt; similar to a part of itself">
+  </outline>
+  <outline text="4.2. Power law degree distribution" _note="*P*(*D* = *k*) = *c* ⋅ *k*^( − *τ*)   &amp;&#10;$\\sum\_{k=1}^{\\infin} P\[D=k\] =1$&#10;&#10;then&#10;$c=\\frac {1}{\\sum\_{k=1}^{\\infin} k^{-\\tau}}=\\frac {1}{\\zeta(s)} \\quad (for \\quad Re(s)&amp;gt;1)$&#10;&#10;&gt; **Riemann-Zeta function**:&#10;&gt;&#10;&gt; The Riemann zeta function or Euler–Riemann zeta function, ζ(s), is a&#10;&gt; function of a complex variable s that analytically continues the sum&#10;&gt; of the Dirichlet series&#10;&gt;&#10;&gt; $\\zeta(s)=\\sum\_{n=1}^{\\infin} \\frac{1}{n^s}$&#10;&gt;&#10;&gt; which converges when the real part of s is greater than 1&#10;&#10;1.  **Moments**:&#10;&#10;    $E\[D^m\]=\\sum\_{k=1}^{\\infin} k^m \\cdot P\[D=k\]=\\frac {\\zeta(\\tau-m)}{\\zeta(\\tau)}$&#10;&#10;    only exists for *τ* &amp;gt; *m* + 1&#10;&#10;    &gt; **moment**:&#10;    &gt;&#10;    &gt; The **n-th moment** of a real-valued continuous function f(x) of a&#10;    &gt; real variable about a value c is&#10;    &gt; **$ \\mu\_n=\\int\_{-\\infin}^{\\infin} (x-c)^nf(x)dx$**&#10;    &gt;&#10;    &gt; It is possible to define moments for random variables in a more&#10;    &gt; general fashion than moments for real values—see moments in metric&#10;    &gt; spaces. The moment of a function, without further explanation,&#10;    &gt; usually refers to the above expression with **c = 0**.&#10;    &gt;&#10;    &gt; For the second and higher moments, the central moment (moments&#10;    &gt; about the mean, with c being the mean) are usually used rather&#10;    &gt; than the moments about zero, because they provide they provide&#10;    &gt; clearer information about the **distribution's shape**.">
+  </outline>
+  <outline text="4.3. Power parameter of power law graphs" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\power law graph critical points.png)&#10;&#10;&gt; **Critical Points**:&#10;&gt;&#10;&gt; **Critical point** is a wide term used in many branches of&#10;&gt; mathematics. When dealing with functions of a real variable, a&#10;&gt; critical point is a point in the domain of the function where the&#10;&gt; function is either not differentiable or the derivative is equal to&#10;&gt; zero.">
+  </outline>
+  <outline text="4.4. Barabasi-Albert Model" _note="The **Barabási–Albert (BA) model** is an algorithm for generating random&#10;scale-free networks using a preferential attachment mechanism.">
+    <outline text="4.4.1. Algorithm" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\BA-Algorithm.png)">
+    </outline>
+    <outline text="4.4.2. Meaning" _note="The BA construction is called **&quot;preferential attachment&quot;**, a&#10;manifestation of **&quot;rich get richer&quot;**.">
+    </outline>
+  </outline>
+</outline>
+<outline text="5. Observed common properties of real-world complex networks" _note="![](D:\OneDrive\TU_Delft\Q1\Networking\Summary\img\Real World Graphs.png)">
+  <outline text="4.1. small-world property" _note="average length/hop count of a path is short compared to the size N of&#10;the network.&#10;&#10;*E*\[*H*\] = *O*(*l**o**g**N*)">
+  </outline>
+  <outline text="4.2. scale-free degree distribution" _note="heavy tails (non-Gaussian behavior">
+  </outline>
+  <outline text="4.3. Clustering and community structure" _note="network of networks">
+  </outline>
+  <outline text="4.4. Robustness to random node failure">
+  </outline>
+  <outline text="4.5. Vulnerability to targeted hub attacks and cascading failures" _note="&gt; **hub**:&#10;&gt;&#10;&gt; In the context of a network, a **hub** is a node with a large degree,&#10;&gt; meaning it has connections with many other nodes.">
+  </outline>
+</outline>
+<outline text="5. Questions" _note="1.  How to generate a G(N,L) and guarantee all of it's links have&#10;    possible p to exist?">
+</outline>
+  </body>
+</opml>
