@@ -1,4 +1,4 @@
-# Model-Based Control
+# 02_02_Model-Based Control
 
 [toc]
 
@@ -11,7 +11,7 @@ $$
 $$
 <img src="assets/image-20210402103644148.png" alt="image-20210402103644148" style="zoom:50%;" />
 
-## 1.1. Applicable condition
+## Applicable condition
 
 1. Process (model) is stable and invertible
 
@@ -26,7 +26,7 @@ $$
 
 
 
-## 1.2. Two Classical Ways
+## Two Classical Ways
 
 ### Open-Loop Feedforward Control
 
@@ -42,7 +42,7 @@ $$
 * improve the prediction accuracy and eliminate offsets
 * in the presence of noise or a significant model–plant mismatch, in which cases it can cause oscillations or instability.
 
-## 1.3. Methods of Inverse $f(.)$
+## Methods of Inverse $f(.)$
 
 ### Numerically Method
 
@@ -183,20 +183,5 @@ The **purpose of the process model working in parallel** with the process is to 
 * This signal is subtracted from the reference. With a perfect process model, the IMC scheme
   is hence able to **cancel the effect of unmeasured output-additive disturbances.**
 
-# 3. Model-Based Predictive Control
 
-
-
-## 2. Internal Model Control
-
-<img src="assets/image-20210411105337298.png" alt="image-20210411105337298" style="zoom:50%;" />
-
-The **purpose of the process model working in parallel** with the process is to **subtract the effect of the control action from the process output**. 
-
-* If the predicted and the measured process outputs **are equal**, the error e is zero and the controller works in an **open-loop configuration**. 
-  * If a **disturbance d** acts on the process output, the feedback signal e is equal to the influence of the disturbance and is not affected by the effects of the control action.
-* This signal is subtracted from the reference. With a perfect process model, the IMC scheme
-  is hence able to **cancel the effect of unmeasured output-additive disturbances.**
-
-# 3. Model-Based Predictive Control
 

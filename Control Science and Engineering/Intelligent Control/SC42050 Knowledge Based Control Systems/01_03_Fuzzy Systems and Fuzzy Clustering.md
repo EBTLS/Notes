@@ -1,10 +1,10 @@
-# Fuzzy Systems and Fuzzy Clustering
+# 01_03_Fuzzy Systems and Fuzzy Clustering
 
 [toc]
 
 # 1. Fuzzy Systems
 
-## 1.1. Linguistic （Mamdani）fuzzy model
+## Linguistic （Mamdani）fuzzy model
 
 $$
 \text{if } x \text{ is } A \text{ then } y \text{ is } B \\
@@ -12,13 +12,13 @@ x \text{ is } A \rightarrow \text{antecedent(fuzzy proposition)} \\
 y \text{ is } B \rightarrow \text{consequent(fuzzy proposition)}
 $$
 
-## 1.2. Fuzzy Relational Model
+## Fuzzy Relational Model
 
 $$
 \text{if } x \text{ is } A \text{ then } y \text{ is } B_1(0.1), B_2(0.8)
 $$
 
-## 1.3. Takagi-sugeno Fuzz model
+## Takagi-sugeno Fuzz model
 
 $$
 \text{if } x \text{ is } A \text{ then } y=f(x)
@@ -28,7 +28,7 @@ $$
 
 Given the if-then **rules** and an **input** fuzzy set, deduce the **corresponding output fuzzy set**
 
-## 2.1. Fuzzy implication and Conjunctions
+## Fuzzy implication and Conjunctions
 
 $$
 \begin{array}{c}R:[0,1] \times[0,1] \rightarrow[0,1] \\\mu_{R}(x, y)=\mathrm{I}\left(\mu_{A}(x), \mu_{B}(y)\right)\end{array}
@@ -48,7 +48,7 @@ $$
 
 
 
-## 2.2. Normal Inference
+## Normal Inference
 
 ### Inference with One Rule
 
@@ -120,7 +120,7 @@ For **<u>Fuzzy Implication</u>**: uncertainty is reflected in the **increased me
 
 For **<u>T-norm</u>**: results in **decreasing the membership degree** of the elements that have high membership in B
 
-## 2.3. A simpler way: Mamdani (Max-min) Inference
+## A simpler way: Mamdani (Max-min) Inference
 
 For the t-norm, we have a simpler way
 $$
@@ -147,7 +147,7 @@ It can be seen as :
 
 # 3. Singleton and Takagi-Sugeno Fuzzy System
 
-## 3.1. Singleton Fuzzy model
+## Singleton Fuzzy model
 
 $$
 \text { If } x \text { is } A_{i} \text { then } y=b_{i}
@@ -171,7 +171,7 @@ y=\mathbf{k}^{T} \mathbf{x}+q=\sum_{i=1}^{p} k_{i} x_{i}+q .
 $$
 
 
-## 3.2. Takagi-Sugeno (TS) Fuzzy model
+## Takagi-Sugeno (TS) Fuzzy model
 
 $$
 \begin{aligned}&\text { If } x \text { is } A_{i} \text { then } y_{i}=a_{i} x+b_{i}\\&y=\frac{\sum_{i=1}^{K} \mu_{A_{i}}(x) y_{i}}{\sum_{i=1}^{K} \mu_{A_{i}}(x)}=\frac{\sum_{i=1}^{K} \mu_{A_{i}}(x)\left(a_{i} x+b_{i}\right)}{\sum_{i=1}^{K} \mu_{A_{i}}(x)}\end{aligned}
@@ -244,7 +244,7 @@ For **Fuzzy Implication**, we always use MOM
 
 # 5. Clustering
 
-## 5.1. Hard Partitions
+## Hard Partitions
 
 ### Problem Model
 
@@ -276,7 +276,7 @@ $$
 
 **Boundary data points** may represent patterns with a mixture of properties of data in $A_1$ and $A_2$, and therefore cannot be fully assigned to either of these classes, or do they constitute a separate class. 
 
-## 5.2. Fuzzy Partitions
+## Fuzzy Partitions
 
 More information is preserved in this form of clustering, which is exactly the advantage of fuzzy clustering over hard partitioning.
 
@@ -335,7 +335,7 @@ $$
   d_{A_{i}}^{2}\left(z_{j}, v_{i}\right)=\left(z_{j}-v_{i}\right)^{T} A_{i}\left(z_{j}-v_{i}\right)
   $$
 
-## 5.3. Possibilistic Partition
+## Possibilistic Partition
 
 ### Optimization Approach Model
 
@@ -357,7 +357,7 @@ $$
 
 
 
-## 5.4. Fuzzy c-Means Clustering
+## Fuzzy c-Means Clustering
 
 ### Functional
 
@@ -455,7 +455,7 @@ The norm influences the clustering criterion by changing the measure of dissimil
 
 
 
-### Shortcomes
+### ShortComes
 
 * A common limitation of clustering algorithms based on a fixed distance norm is that such a norm **forces the objective function to prefer clusters of a certain shape** even if they are not present in the data.
 * inclusion of pre-defined volume per cluster ($\rho_i$)

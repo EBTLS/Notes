@@ -1,30 +1,28 @@
-# Fuzzy System Constructions and Fuzzy Control
+# 01_02_Fuzzy System Constructions and Fuzzy Control
 
 [toc]
 
 # 1. Fuzzy System Constructions
 
-## 1.1. Structures and Parameters
+## Structures and Parameters
 
 With regard to the design of fuzzy (and also other) models, two basic items are distinguished: the **structure** and the **parameters** of the model.
 
 A model with a **rich structure** is able to approximate **more complicated functions**, but, at the same time, has **worse generalization** properties.
 
-## 1.2. From prior knowledge
+## From prior knowledge
 
 The expert knowledge expressed in a **verbal form** is **translated** into a collection of **if–then rules**.
 
 can be seen as "Fuzzy expert systems"
 
-
-
-## 1.3. From Data
+## From Data
 
 It is expected that the extracted rules and membership functions can provide an a posteriori interpretation of the system’s behavior
 
 
 
-## 1.4. Overal Process
+## Overall Process
 
 1. Select the **input and output** variables, the **structure** of the rules, and the **inference** and **defuzzification** methods.
 2. Decide on the **number of linguistic terms** for each variable and define the corresponding **membership functions.**
@@ -35,7 +33,7 @@ It is expected that the extracted rules and membership functions can provide an 
 
 # 2. Constructions From Data
 
-## Overal Model
+## Overall Model
 
 
 
@@ -65,19 +63,14 @@ $$
 * Normalize
   $$
   \gamma_{k i}=\mu_{A_{i}}\left(x_{k}\right) / \sum_{j=1}^{K} \mu_{A_{j}}\left(x_{k}\right)
-<<<<<<< HEAD
   $$
-=======
-$$
->>>>>>> 069203704dccfabdfaec6844d241e6f97f5a4c80
-  
 * put output $y_{k}=\sum_{i=1}^{K} \gamma_{k i} b_{i}$ in a matrix form $y=\Gamma b$
 
 * Least-square Estimate
-  $$
-  \boldsymbol{b}=\left[\mathbf{\Gamma}^{T} \mathbf{\Gamma}\right]^{-1} \mathbf{\Gamma}^{\top} \boldsymbol{y}
-  $$
-  
+
+$$
+\boldsymbol{b}=\left[\mathbf{\Gamma}^{T} \mathbf{\Gamma}\right]^{-1} \mathbf{\Gamma}^{\top} \boldsymbol{y}
+$$
 
 ## Least-Squares Estimation of TS Consequents
 
@@ -103,47 +96,8 @@ y_{N}
 $$
 
 $$
-\boldsymbol{\theta}_{i}=\left[\begin{array}{ll}
-\boldsymbol{a}_{i}^{T} & b_{i}
-\end{array}\right]^{T}, \quad \boldsymbol{X}_{e}=\left[\begin{array}{ll}
-\boldsymbol{X} & \boldsymbol{1}
-\end{array}\right]
+
 $$
-### Method
-
-**<u>Global LS</u>**
-$$
-\boldsymbol{\theta}^{\prime}=\left[\left(\boldsymbol{X}^{\prime}\right)^{T} \boldsymbol{X}^{\prime}\right]^{-1}\left(\boldsymbol{X}^{\prime}\right)^{T} \boldsymbol{y}
-$$
-$$
-\mathbf{X}^{\prime}=\left[\mathbf{\Gamma}_{1} \mathbf{X}_{e}\right. \mathbf{\Gamma}_{2} \mathbf{X}_{e} \left.\ldots \boldsymbol{\Gamma}_{c} \boldsymbol{X}_{e}\right] \\
-\boldsymbol{\theta}^{\prime}= [\boldsymbol{\theta}_{1}^{T}  \boldsymbol{\theta}_{2}^{T}  \ldots \boldsymbol{\theta}_{c}^{T}]
-$$
-
-
-
-## Fuzzy Clustering way
-
-### Rule-Based Interpretation of fuzzy clusters
-
-* Cluster
-* Interpretation
-
-<img src="assets/image-20210411092512273.png" alt="image-20210411092512273" style="zoom:50%;" />
-
-
-
-### Fuzzy Clusters with TS-Model: An example
-
-* cluster
-* use linear prototypes to approximate subspaces
-
-<img src="assets/image-20210411092629989.png" alt="image-20210411092629989" style="zoom:50%;" />
-
-<img src="assets/image-20210411092644210.png" alt="image-20210411092644210" style="zoom:50%;" />
-
-![image-20210411092712963](assets/image-20210411092712963.png)
-
 $$
 \boldsymbol{\theta}_{i}=\left[\begin{array}{ll}
 \boldsymbol{a}_{i}^{T} & b_{i}
@@ -164,6 +118,7 @@ $$
 \boldsymbol{\theta}^{\prime}= [\boldsymbol{\theta}_{1}^{T}  \boldsymbol{\theta}_{2}^{T}  \ldots \boldsymbol{\theta}_{c}^{T}]
 $$
 
+
 ## Fuzzy Clustering way
 
 ### Rule-Based Interpretation of fuzzy clusters
@@ -171,7 +126,7 @@ $$
 * Cluster
 * Interpretation
 
-<img src="assets/image-20210411092512273.png" alt="image-20210411092512273" style="zoom:50%;" />
+<img src="assets/Fuzzy System Constructions and Fuzzy Control/image-20210411092512273.png" alt="image-20210411092512273" style="zoom:50%;" />
 
 
 
@@ -180,19 +135,26 @@ $$
 * cluster
 * use linear prototypes to approximate subspaces
 
-<img src="assets/image-20210411092629989.png" alt="image-20210411092629989" style="zoom:50%;" />
+<img src="assets/Fuzzy System Constructions and Fuzzy Control/image-20210411092629989.png" alt="image-20210411092629989" style="zoom:50%;" />
 
-<img src="assets/image-20210411092644210.png" alt="image-20210411092644210" style="zoom:50%;" />
+<img src="assets/Fuzzy System Constructions and Fuzzy Control/image-20210411092644210.png" alt="image-20210411092644210" style="zoom:50%;" />
 
-![image-20210411092712963](assets/image-20210411092712963.png)
+![image-20210411092712963](assets/Fuzzy System Constructions and Fuzzy Control/image-20210411092712963.png)
+$$
+\boldsymbol{\theta}_{i}=\left[\begin{array}{ll}
+\boldsymbol{a}_{i}^{T} & b_{i}
+\end{array}\right]^{T}, \quad \boldsymbol{X}_{e}=\left[\begin{array}{ll}
+\boldsymbol{X} & \boldsymbol{1}
+\end{array}\right]
+$$
 
 # 2. Fuzzy-Control
 
-## 2.1. Motivation
+## Motivation
 
 The underlying principle of **knowledge-based (expert) control** is to **capture and implement experience and knowledge** available from experts (e.g., process operators)
 
-## 2.2. Overview
+## Overview
 
 Three aspects of a fuzzy controller
 
@@ -205,9 +167,9 @@ Two view of a fuzzy controller
 * fuzzy if-then rules
 * non-linear mapping
 
-<img src="assets/image-20210411094206615.png" alt="image-20210411094206615" style="zoom:50%;" />
+<img src="assets/Fuzzy System Constructions and Fuzzy Control/image-20210411094206615.png" alt="image-20210411094206615" style="zoom:50%;" />
 
-## 2.3. Fuzzy Controllers
+## Fuzzy Controllers
 
 A fuzzy controller is a controller that contains a (nonlinear) mapping that has been defined by using fuzzy if-then rules.
 
@@ -218,24 +180,19 @@ Most often used fuzzy controller:
 * Mamdani
 * TS model
 
-## 2.4. Mamdani Controller
+## Mamdani Controller
 
-<img src="assets/image-20210411094340079.png" alt="image-20210411094340079" style="zoom:50%;" />
+<img src="assets/Fuzzy System Constructions and Fuzzy Control/image-20210411094340079.png" alt="image-20210411094340079" style="zoom:50%;" />
 
 ### Rule Base
 
 $$
 \mathcal{R}_{i}: \text { If } x_{1} \text { is } A_{i 1} \ldots \text { and } x_{n} \text { is } A_{i n} \text { then } u \text { is } B_{i}, \quad i=1,2, \ldots, K
 $$
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 069203704dccfabdfaec6844d241e6f97f5a4c80
 
 <img src="assets/image-20210411094509183.png" alt="image-20210411094509183" style="zoom:50%;" />
 
-## 2.5. TS Controller
+## TS Controller
 
  **Several linear controllers** are defined, each valid in one particular region of the controller’s input space. The output is based on:
 
@@ -276,7 +233,7 @@ Many processes in the industry are controlled by PID controllers, they tried to 
 
 # 3. Basic Process of Designing Fuzzy Controller
 
-## 3.1. Process
+## Process
 
 ![image-20210411095036176](assets/image-20210411095036176.png)
 
@@ -330,9 +287,15 @@ Or another way can be followed:
 
 The domain of the valve position (0–100%) was **partitioned into four fuzzy sets** (‘Small’, ‘Medium’, ‘Big’ and ‘Very Big’), and define P and I for each set
 
-<img src="assets/image-20210411095814073.png" alt="image-20210411095814073" style="zoom:50%;" />![image-20210411095829396](assets/image-20210411095829396.png)
+<img src="assets/image-20210411095814073.png" alt="image-20210411095814073" style="zoom:50%;" />
 
-<img src="assets/image-20210411095814073.png" alt="image-20210411095814073" style="zoom:50%;" />![image-20210411095829396](assets/image-20210411095829396.png)
+![image-20210411095829396](assets/image-20210411095829396.png)
+
+<img src="assets/image-20210411095814073.png" alt="image-20210411095814073" style="zoom:50%;" />
+
+![image-20210411095829396](assets/Fuzzy System Constructions and Fuzzy Control/image-20210411095829396.png)
+
+
 
 # Summary
 

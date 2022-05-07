@@ -4,13 +4,13 @@
 
 # 1. Q-function Approximation
 
-## 1.1. Background & Basic Idea
+## Background & Basic Idea
 
 In real-life control, X, U continuous
 
 - approximate Q-function $\hat{Q}$ must be used
 
-## 1.2. Method 1: use linearly parametrized approximation
+## Method 1: use linearly parametrized approximation
 
 ### Q-function Approximation
 
@@ -40,7 +40,7 @@ usually normalized: $\sum_i \phi_i(x)=1$
 
 <img src="assets/image-20210408115907825.png" alt="image-20210408115907825" style="zoom:50%;" />
 
-## 1.3.Fuzzy Q-iteration
+## Fuzzy Q-iteration
 
 ### Model
 
@@ -73,7 +73,7 @@ $$
 
 # 2. Actor-critic methods
 
-## 2.1. Structure
+## Structure
 
 **Explicitly separated value function and policy**
 
@@ -91,7 +91,7 @@ $$
 
 Parameters $\phi$ and $\theta$, have finite size, but approximate functions on continuous (infinitely large) spaces
 
-## 2.2. Update Critic: Value Estimation
+## Update Critic: Value Estimation
 
 The task of the critic is to **predict the expected future reinforcement r the process will receive being in the current state and following the current control policy.**
 
@@ -125,7 +125,7 @@ $$
   $$
   
 
-## 2.3. Update Actor: Policy Update
+## Update Actor: Policy Update
 
 The actor (i.e., the policy) can be adapted in order to **establish an optimal mapping between the system states and the control actions.**
 $$

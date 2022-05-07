@@ -1,4 +1,4 @@
-# Gaussian Process
+# 02_01_Gaussian Process
 
 [toc]
 

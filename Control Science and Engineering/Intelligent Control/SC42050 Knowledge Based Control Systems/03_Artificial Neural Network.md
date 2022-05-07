@@ -1,10 +1,10 @@
-# Artificial Neural Network
+# 03_Artificial Neural Network
 
 [toc]
 
 # 1. Introduction
 
-## 1.1. Artificial Neuron
+## Artificial Neuron
 
 <img src="assets/image-20210409164250139.png" alt="image-20210409164250139" style="zoom:50%;" />
 
@@ -23,11 +23,11 @@ $\sigma(z)$: **activation function**
 
 $v$: output of the neuron
 
-## 1.2. Activation functions
+## Activation functions
 
 **Transformation** of the input space (squeezing).
 
-### 1.2.1. Projection Functions
+### Projection Functions
 
 threshold function, piece-wise linear function, tangent hyperbolic, sigmoidal, rectified linear, ... function:
 
@@ -36,7 +36,7 @@ $$
 $$
 
 
-### 1.2.2. Kernal Functions
+### Kernel Functions
 
 $$
 \sigma(\mathbf{x})=\exp \left(-(\mathbf{x}-\mathbf{c})^{2} / s^{2}\right)
@@ -44,7 +44,7 @@ $$
 
 
 
-### 1.3.3. Common Choices
+### Common Choices
 
 **Sigmoid:**
 
@@ -84,7 +84,7 @@ $$
 
 # 2. Simple Networks
 
-## 2.1. Feedforward neural network example
+## Feedforward neural network example
 
 - Activation of hidden-layer neuron j:
 
@@ -109,7 +109,7 @@ $$
 
 <img src="assets/image-20210409164429904.png" alt="image-20210409164429904" style="zoom:50%;" />
 
-## 2.2. Function approximation with neural nets: examples
+## Function approximation with neural nets: examples
 
 $$
 y=w_{1}^{o} \tanh \left(w_{1}^{h} x+b_{1}^{h}\right)+w_{2}^{o} \tanh \left(w_{2}^{h} x+b_{2}^{h}\right)
@@ -123,7 +123,7 @@ $$
 
 ![image-20210409164454965](assets/image-20210409164454965.png)
 
-## 2.3. Input–Output Mapping
+## Input–Output Mapping
 
 $$
 \begin{aligned}\mathbf{Z} &=\mathbf{X}_{b} \mathbf{W}^{h} \\\mathbf{V} &=\sigma(\mathbf{Z}) \\\mathbf{Y} &=\mathbf{V}_{b} \mathbf{W}^{\circ} &\end{aligned}
@@ -141,7 +141,7 @@ $$
 \mathbf{Y}=\left[\sigma\left([\mathbf{X} \mathbf{1}] \mathbf{W}^{h}\right) \mathbf{1}\right] \mathbf{W}^{\circ}
 $$
 
-## 2.4. Approximation capability of neural nets
+## Approximation capability of neural nets
 
 ### Cybenko Theorem
 
@@ -179,7 +179,7 @@ $$
 
 # 4. Training
 
-## 4.1. Goal
+## Goal
 
 Find the **weight vector W** that minimizes some **cost function** $J(f(x;W))$ for **all (especially unseen) inputs x**.
 
@@ -193,7 +193,7 @@ Make a neural network approximate a known function $x → t$ by minimizing: $J(W
 
 <img src="assets/image-20210409164520936.png" alt="image-20210409164520936" style="zoom:50%;" />
 
-## 4.2. General Process
+## General Process
 
 1. **Initialize** W to small random values
 
@@ -207,7 +207,7 @@ Make a neural network approximate a known function $x → t$ by minimizing: $J(W
 
    3. **Optimization step**: **Change the weights** based on the gradient to reduce the cost.
 
-## 4.3. Back-Propagation
+## Back-Propagation
 
 Calculate the **gradient** of the cost with respect to the weights
 
@@ -250,7 +250,7 @@ $$
 $$
 
 
-## 4.4 Cost Function
+## Cost Function
 
 Two main **criteria**:
 
@@ -286,7 +286,7 @@ Different gradient features: $\rightarrow$ different "**aggressive**" extent to 
 
 <img src="assets/image-20210409164556599.png" alt="image-20210409164556599" style="zoom:50%;" />
 
-## 4.5. (Stochastic) Gradient Descent
+## (Stochastic) Gradient Descent
 
 ### Basic Way to Update Weights
 
@@ -365,13 +365,13 @@ $$
 
 # 5. Regularization & Validation
 
-## 5.1. Overfitting
+## Overfitting
 
 <img src="assets/image-20210409164611316.png" alt="image-20210409164611316" style="zoom:50%;" />
 
 <img src="assets/image-20210409164618718.png" alt="image-20210409164618718" style="zoom:50%;" />
 
-## 5.2. Validation & Cross-Validation
+## Validation & Cross-Validation
 
 **True Criterion**
 
@@ -421,7 +421,7 @@ $$
 
 K折交叉验证，初始采样分割成K个子样本，一个单独的子样本被保留作为验证模型的数据，其他K-1个样本用来训练。**交叉验证重复K次**，每个子样本验证一次，平均K次的结果或者使用其它结合方式，最终得到一个单一估测。这个方法的优势在于，同时重复运用随机产生的子样本进行训练和验证，每次的结果验证一次，10折交叉验证是最常用的
 
-## 5.3. Test Set
+## Test Set
 
 The **validation set** is used to **select the right hyper-parameters,** Use a **separate test set** to verify the hyper-parameters have not been over-fitted to the validation set.
 
@@ -429,7 +429,7 @@ The **validation set** is used to **select the right hyper-parameters,** Use a *
 - Cost function
 - Optimization parameters
 
-## 5.4. Regularization
+## Regularization
 
 Any strategy that attempts to **improve the test performance**, but not the training performance
 
@@ -481,7 +481,7 @@ Sometimes existing data **can be transformed to get more data**. Noise can be ad
 
 # 6. Specialized Network Architetures
 
-## 6.1. Recurrent Neural Networks (RNN)
+## Recurrent Neural Networks (RNN)
 
 > Also Refer to: https://zhuanlan.zhihu.com/p/123211148
 
@@ -509,7 +509,7 @@ Scalar case with no input: $x_n = w^n · x_0$ , For $w < 1; x_n → 0$, for $w >
 
 This makes it hard to learn long term dependencies
 
-## 6.2. LSTM
+## LSTM
 
 > Also Refer to:  https://zhuanlan.zhihu.com/p/123211148
 
@@ -529,7 +529,7 @@ this is a structure grarph of a **single memory cell**
 
 先经过输入门，看是否有信息输入，再判断遗忘门是否选择遗忘Memory Cell里的信息，最后再经过输出门，判断是否将这一时刻的信息进行输出。
 
-## 6.3. Convolutional Neural Networks (CNN)
+## Convolutional Neural Networks (CNN)
 
 > Also refer to: https://zhuanlan.zhihu.com/p/27908027
 
@@ -541,9 +541,7 @@ this is a structure grarph of a **single memory cell**
 
 # 7. Unsupervised Learning
 
-
-
-## 7.1. Additional Training Criteria
+## Additional Training Criteria
 
 Inputs x are often much easier to obtain than targets t.
 
@@ -552,7 +550,7 @@ Inputs x are often much easier to obtain than targets t.
 
 ![image-20210409192550074](assets/image-20210409192550074.png)
 
-## 7.2. Auto Encoders
+## Auto Encoders
 
 > Also From: https://zhuanlan.zhihu.com/p/24813602
 
@@ -576,7 +574,7 @@ Inputs x are often much easier to obtain than targets t.
 
 decompresses the input, can be used as a generative model.
 
-## 7.3. Auxiliary training objectives
+## Auxiliary training objectives
 
 Auxiliary training objectives can be added
 

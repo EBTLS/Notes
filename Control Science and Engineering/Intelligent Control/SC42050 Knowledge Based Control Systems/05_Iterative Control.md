@@ -12,13 +12,13 @@ Simple Repetitions imporve performance in prototypical motions
 
 # 2. Introduction
 
-## 2.1. Architecture
+## Architecture
 
 <img src="assets/image-20210407112934963.png" alt="image-20210407112934963" style="zoom:50%;" />
 
 <img src="assets/image-20210407113023972.png" alt="image-20210407113023972" style="zoom:50%;" />
 
-## 2.2. Model
+## Model
 
 Given **Desired Trajectory**: $\bar{y}:\{1 \ldots N\} \rightarrow \mathbb{R}^{m}$
 

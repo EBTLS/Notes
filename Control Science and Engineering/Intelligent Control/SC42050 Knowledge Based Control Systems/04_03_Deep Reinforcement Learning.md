@@ -4,14 +4,14 @@
 
 # 1. Background: From actor-critic & Q-learning to DQN
 
-## 1.1. Main problem of Q-learning
+## Main problem of Q-learning
 
 > https://zhuanlan.zhihu.com/p/46852675
 
 1. Q-Learning可以很好的解决迷宫问题，但这终究是个小问题，它的**状态空间和动作空间都很小**。而在实际的情况下，大部分问题都有巨大的状态空间或动作空间，建立Q表，内存是不允许的，而且数据量和时间开销也是个问题。
 2. 如果一个状态从未出现过，Q-learning是无法处理的。也就是说**Q-learning压根没有预测能力，也就是没有泛化能力**。
 
-## 1.2. DQN
+## DQN
 
 <img src="assets/20191204090917866.png" alt="在这里插入图片描述" style="zoom:50%;" />
 
@@ -49,7 +49,7 @@ $$
 
 # 2. Improvement on DQN
 
-## 2.1. Prioritized Experience Replay
+## Prioritized Experience Replay
 
 Different sample has different weight(priority):
 
@@ -63,7 +63,7 @@ It can be used to compensate for bias with importance sampling
 
 
 
-## 2.2.  DDPG
+## DDPG
 
 Although DQN give deep learning method to find Q-table, it still meet trouble when facing to choose action. It is because:
 
@@ -98,7 +98,7 @@ So we try to directly learn policy(action)
 
 将DQN中将神经网络用于拟合Q函数的两个trick用到了DPG中，也就是将DPG中的Q函数也变成了一个神经网络。
 
-## 2.3.  Dueling DQN
+## Dueling DQN
 
 A(s, a)与动作相关，是a相对s平均回报的相对好坏，是优势，解决reward-bias问题。RL中真正关心的还是策略的好坏，更关系的是优势，另外在某些情况下，任何策略都不影响回报，显然需要剔除
 
@@ -120,7 +120,7 @@ red part: get $A(s,a)$
 
 blue part: get $V(s)$
 
-## 2.4. Sim2Real
+## Sim2Real
 
  Train in simulation, apply on real system
 
@@ -134,6 +134,6 @@ poorly
 Make learned policy more robust, e.g.  via domain
 randomization
 
-## 2.5. Curriculum Learning
+## Curriculum Learning
 
 Start with learning simple tasks, once mastered learn more complex tasks

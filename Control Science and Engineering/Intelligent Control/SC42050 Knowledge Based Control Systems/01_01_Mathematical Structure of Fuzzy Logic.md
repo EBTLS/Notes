@@ -1,4 +1,4 @@
-# Mathematical Structure of Fuzzy Logic
+# 01_01_Mathematical Structure of Fuzzy Logic
 
 [toc]
 
@@ -54,7 +54,7 @@ $$
 
 The maximum operator is also denoted by $∨$, i.e., $\mu_C(x) = \mu_A(x) ∨ \mu_B(x)$
 
-## 3.2. T-norms and T-conorms
+## T-norms and T-conorms
 
 ### T-Norm (Intersection)
 
@@ -88,7 +88,7 @@ $$
 * The **maximum** is the **smallest** t-conorm (union operator)
 * the membership functions of fuzzy unions A ∪ B obtained with other t-conorms are all **above** the bold membership function
 
-## 3.3. Projection and Cylindrical Extenstion
+## Projection and Cylindrical Extention
 
 <u>**Projection**</u> **reduces** a fuzzy set defined in a multi-dimensional domain
 
@@ -132,7 +132,7 @@ $$
 \begin{array}{l}A=\operatorname{proj}_{X^{n}}\left(\operatorname{ext}_ {X^{m}}(A)\right) \\A \neq \operatorname{ext}_{X^{m}}\left(\operatorname{proj}_ {X^{n}}(A)\right)\end{array}
 $$
 
-## 3.4. Operations on Cartesian Product Domains
+## Operations on Cartesian Product Domains
 
 Set-theoretic operations such as the **union or intersection** applied to fuzzy sets **defined in different domains** result in a **multi-dimensional fuzzy set** in the Cartesian product of those domains.
 
