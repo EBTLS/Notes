@@ -4,7 +4,7 @@
 
 # 1. Background (Intuition)
 
-Simple Repetitions imporve performance in prototypical motions
+Simple Repetitions improve performance in prototypical motions
 
 ![image-20210407112819298](assets/image-20210407112819298.png)
 
